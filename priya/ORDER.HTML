@@ -1,0 +1,76 @@
+<html>
+    <head>
+        
+        <title>mini</title>
+        <style>
+            .food-item{
+                width: 200px;
+                height: 150px;
+                padding-left:270px;
+            }
+            .head1{
+                word-spacing:60px;
+                padding-top: 20px;
+                padding-bottom: 25px;
+                background-color:palegoldenrod;
+            }
+            .f1{
+                margin-top: 20px;
+            }
+            form{
+                text-align: center;
+                padding-top: 90px;
+                
+            }
+
+        </style>
+    </head>
+    <body>
+        <div class="head1" >
+            <ul>
+           <span style="font-size:40px;">CLASSICKITCHEN <img  class="f1" src="https://marketplace.canva.com/EAESMsqG9rI/3/0/1600w/canva-grey-%26-green-elegant-minimal-good-taste-food-restaurant-logo-jeSR74GRMC8.jpg" width="200px" height="100px"></span>     
+           <span ><a style="color:red" href="HOME.html">MENU</a></span>
+          <span><a style="color:red" href="ABOUT.html">ABOUT</a></span>
+          <span><a style="color:red" href="LOCATION.html">LOCATION</a></span>
+          <span><a style="color:red"href="ORDER.HTML">ORDER</a></span>
+          </ul>
+        </div>
+        <div>
+            <form style="border:30px solid;background-color: antiquewhite;">
+                <div class="container">
+                    <h1>Restaurant Order Form</h1>
+                    <form action="submit_order.php" method="post">
+                        <div class="menu-item">
+                            <h2>Burger</h2>
+                            <label for="burger_quantity">Quantity:</label>
+                            <input type="number" name="burger_quantity" id="burger_quantity" min="0" placeholder="burger">
+                        </div>
+                        <div class="menu-item">
+                            <h2>Pizza</h2>
+                            <label for="pizza_quantity">Quantity:</label>
+                            <input type="number" name="pizza_quantity" id="pizza_quantity" min="0" placeholder="pizza">
+                        </div>
+                        <div class="menu-item">
+                            <h2>biryani</h2>
+                            <label for="biryani_quantity">Quantity:</label>
+                            <input type="number" name="biryani_quantity" id="biryani_quantity" min="0" placeholder="biryani">
+                            </div>
+                            <div class="menu-item">
+                            <h2>lasagaaa</h2>
+                                <label for="lasagaaa_quantity">Quantity:</label>
+                                <input type="number" name="lasagaaa_quantity" id="lasagaaa_quantity" min="0" placeholder="lasagaaa">
+                            </div>
+                        <div style="padding-top:30px">
+                            <textarea name="Address" cols="30" rows="8">Address</textarea>
+                        </div>
+                        <div style="padding-top:30px">
+                            <input type="text" name="Submit" value="Submit"> 
+                        </div>    
+
+                        
+                        
+                        
+                
+            </form>
+        </div>
+        
